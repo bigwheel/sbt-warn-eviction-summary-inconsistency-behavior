@@ -1,0 +1,93 @@
++ for proj_name in */
++ cd sbt116-with-binary-compatible-dependencies/
++ sbt clean update evicted
+[info] Loading global plugins from /home/kbigwheel/.sbt/1.0/plugins
+[info] Loading project definition from /home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt116-with-binary-compatible-dependencies/project
+[info] Loading settings from build.sbt ...
+[info] Set current project to sbt116-with-binary-compatible-dependencies (in build file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt116-with-binary-compatible-dependencies/)
+[success] Total time: 0 s, completed 2019/01/09 8:53:54
+[info] Updating ...
+[info] Done updating.
+[success] Total time: 0 s, completed 2019/01/09 8:53:54
+[info] Updating ...
+[info] Done updating.
+[info] Here are other depedency conflicts that were resolved:
+[info] 	* com.typesafe:config:1.3.3 is selected over 1.2.0
+[info] 	    +- com.typesafe.akka:akka-actor_2.12:2.5.19 ()        (depends on 1.3.3)
+[info] 	    +- default:sbt116-with-binary-compatible-dependencies_2.12:0.1.0-SNAPSHOT (depends on 1.2.0)
+[success] Total time: 0 s, completed 2019/01/09 8:53:54
++ cd ..
++ for proj_name in */
++ cd sbt116-with-binary-incompatible-dependencies/
++ sbt clean update evicted
+[info] Loading global plugins from /home/kbigwheel/.sbt/1.0/plugins
+[info] Loading project definition from /home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt116-with-binary-incompatible-dependencies/project
+[info] Updating ProjectRef(uri("file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt116-with-binary-incompatible-dependencies/project/"), "sbt116-with-binary-incompatible-dependencies-build")...
+[info] Done updating.
+[info] Loading settings from build.sbt ...
+[info] Set current project to sbt116-with-binary-incompatible-dependencies (in build file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt116-with-binary-incompatible-dependencies/)
+[success] Total time: 0 s, completed 2019/01/09 8:54:03
+[info] Updating ...
+[info] Done updating.
+[warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[warn] 	* com.typesafe:config:1.3.3 is selected over 0.6.0
+[warn] 	    +- com.typesafe.akka:akka-actor_2.12:2.5.19 ()        (depends on 1.3.3)
+[warn] 	    +- default:sbt116-with-binary-incompatible-dependencies_2.12:0.1.0-SNAPSHOT (depends on 0.6.0)
+[warn] Run 'evicted' to see detailed eviction warnings
+[success] Total time: 0 s, completed 2019/01/09 8:54:03
+[info] Updating ...
+[info] Done updating.
+[warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[warn] 	* com.typesafe:config:1.3.3 is selected over 0.6.0
+[warn] 	    +- com.typesafe.akka:akka-actor_2.12:2.5.19 ()        (depends on 1.3.3)
+[warn] 	    +- default:sbt116-with-binary-incompatible-dependencies_2.12:0.1.0-SNAPSHOT (depends on 0.6.0)
+[warn] Run 'evicted' to see detailed eviction warnings
+[success] Total time: 0 s, completed 2019/01/09 8:54:03
++ cd ..
++ for proj_name in */
++ cd sbt128-with-binary-compatible-dependencies/
++ sbt clean update evicted
+[info] Loading global plugins from /home/kbigwheel/.sbt/1.0/plugins
+[info] Updating ProjectRef(uri("file:/home/kbigwheel/.sbt/1.0/plugins/"), "global-plugins")...
+[info] Done updating.
+[info] Loading project definition from /home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-compatible-dependencies/project
+[info] Updating ProjectRef(uri("file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-compatible-dependencies/project/"), "sbt128-with-binary-compatible-dependencies-build")...
+[info] Done updating.
+[info] Loading settings for project sbt128-with-binary-compatible-dependencies from build.sbt ...
+[info] Set current project to sbt128-with-binary-compatible-dependencies (in build file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-compatible-dependencies/)
+[success] Total time: 0 s, completed 2019/01/09 8:54:13
+[info] Updating ...
+[info] Done updating.
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[success] Total time: 0 s, completed 2019/01/09 8:54:13
+[info] Updating ...
+[info] Done updating.
+[info] Here are other dependency conflicts that were resolved:
+[info] 	* com.typesafe:config:1.3.3 is selected over 1.2.0
+[info] 	    +- com.typesafe.akka:akka-actor_2.12:2.5.19 ()        (depends on 1.3.3)
+[info] 	    +- default:sbt128-with-binary-compatible-dependencies_2.12:0.1.0-SNAPSHOT (depends on 1.2.0)
+[success] Total time: 0 s, completed 2019/01/09 8:54:13
++ cd ..
++ for proj_name in */
++ cd sbt128-with-binary-incompatible-dependencies/
++ sbt clean update evicted
+[info] Loading global plugins from /home/kbigwheel/.sbt/1.0/plugins
+[info] Loading project definition from /home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-incompatible-dependencies/project
+[info] Updating ProjectRef(uri("file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-incompatible-dependencies/project/"), "sbt128-with-binary-incompatible-dependencies-build")...
+[info] Done updating.
+[info] Loading settings for project sbt128-with-binary-incompatible-dependencies from build.sbt ...
+[info] Set current project to sbt128-with-binary-incompatible-dependencies (in build file:/home/kbigwheel/code/_sandbox/sbt-warn-eviction-summary-inconsistency-behavior/sbt128-with-binary-incompatible-dependencies/)
+[success] Total time: 0 s, completed 2019/01/09 8:54:21
+[info] Updating ...
+[info] Done updating.
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[success] Total time: 0 s, completed 2019/01/09 8:54:22
+[info] Updating ...
+[info] Done updating.
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
+[warn] 	* com.typesafe:config:1.3.3 is selected over 0.6.0
+[warn] 	    +- com.typesafe.akka:akka-actor_2.12:2.5.19 ()        (depends on 1.3.3)
+[warn] 	    +- default:sbt128-with-binary-incompatible-dependencies_2.12:0.1.0-SNAPSHOT (depends on 0.6.0)
+[success] Total time: 0 s, completed 2019/01/09 8:54:22
++ cd ..
